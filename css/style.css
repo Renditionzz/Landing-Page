@@ -131,4 +131,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:80px;
+}
+
+.cta__card {
+    background-color: #3882F8;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    padding:40px 60px;
+    gap:50px;
+}
+
+.cta__header, .cta__text {
+    margin:0;
+    padding:0;
+}
+
+.cta__header {
+    color:#F9FAF8;
+}
+.cta__text {
+    color:#E5E7EB;
+}
+.cta__btn {
+    background-color: #3882F8;
+    border:2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
