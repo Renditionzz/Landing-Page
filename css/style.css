@@ -162,3 +162,17 @@ body {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.footer__text {
+    color: #E5E7EB;
+}
